@@ -83,7 +83,7 @@ pip install -r requirements.txt
 ## ⚙ Requirements
 
 * Python 3.10 or newer
-* A wordlist file (e.g. `rockyou.txt`) placed in `wordlist/`
+* A wordlist file 800k.txt full optimized placed in `wordlist/`
 
 ---
 
@@ -98,3 +98,9 @@ MIT License — see [LICENSE](LICENSE) for details.
 Made with ❤️ by [@micropy](https://github.com/micropy)
 
 ⭐ If you find this project useful, please give it a star!
+
+## ⚠️ Disclaimer
+
+This project is provided solely for educational and cybersecurity research purposes. It must not be used for illegal activities or to compromise the security of systems without authorization. The author is not responsible for any misuse of this tool.
+
+If you choose to use this software, make sure you comply with the laws and regulations of your country.
