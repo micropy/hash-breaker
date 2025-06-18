@@ -34,7 +34,6 @@ def split_hash_format(input_str: str):
         part1, part2 = match.groups()
         hash_candidate = part1 if len(part1) in [64, 128] else part2
         salt_candidate = part2 if hash_candidate == part1 else part1
-        # No print aquí, para evitar impresión múltiple
         return hash_candidate, salt_candidate
     else:
         return input_str.strip(), None
